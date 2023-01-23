@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <base href="https://www.w3schools.com/" target="_blank"> -->
+    
+    <style>
+        .container {
+            width: 1140px;
+            margin: auto;
+            padding: 0 15px;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        h1 {
+            color: greenyellow;
+        }
+    </style>
+</head>
+
+<body>
+   
+    <section>
+        <div class="container">
+            <!-- ----------anchor tag---------- -->
+            <h1>1.Anchor Tag</h1>
+            <a href="https://www.w3schools.com">Link</a>
+            <a href="tags/tag_doctype.asp">Link</a>  
+            <h2>with attributes</h2>
+            <a href="mailto:srikanthrebi@gmail.com">Mail</a> <br>
+            <a href="tel:+918072166670">Cell</a>
+
+            <!-- abbrivation tag-------------------- -->
+            <h1>2.Abbr Tag</h1>
+            <p title="hyper text markup languages">HTML document</p>
+            <p><abbr title="hyper text markup languages ">HTML</abbr> document </p>
+            <!-- --------------Address Tag ---------------->
+            <h1>3.Address Tag</h1>
+            <p>its used for address type content only and tell to browser this is address so show address type.</p>
+            <p>address tag default itallic style.</p>
+            <address>
+                s/o Murugan, <br>
+                vilupuram , <br>
+                chennai .
+            </address>
+            <!-- -----------------area tag=----------------- -->
+            <h1>4.Area tag</h1>
+            <p>it used for mapping a image </p>
+            <img src="image/hero-bg.jpg" alt="" usemap="#natural" width="400px" height="300px">
+            <map name="natural">
+                <area shape="" coords="34,44,270,350" href="image/Jeanette on Twitter.jpg" width="200px" height="100px"
+                    alt="">
+            </map>
+            <!-- --------------------------audio tag----------------- -->
+            <h1>5.Audio Tag</h1>
+            <audio controls  autoplay >
+                <source src="audio/vadivel-2.mpeg" type="audio/mpeg">
+                <source src="audio/vadivel-1.mpeg" type="audio/mpeg">
+            </audio>
+
+            <!-- ----------bold tag--------------- -->
+            <h1>6.Bold Tag</h1>
+            <p>extra impotance text <b style="color:blueviolet;"> only used bold tag </b></p>
+            <!-- ------------------base tag-------------- -->
+            <h1>7.Base Tag</h1>
+            <p>it use only head tag and base tag open with one path to another</p>
+            <!-- --------------bdo tag--------------- -->
+            <h1>8.BDO Tag (bi-directional override)</h1>
+            <p>this tag <big>override</big> <bdo dir="rtl"> normal line in <bdi>right </bdi>
+                    to left side</bdo></p>
+            <!-- -----------------blockquote tag---------------- -->
+            <h1>9.Blockquote Tag</h1>
+            <p>it used for developer imporant story or any other source to put in our page </p>
+            <blockquote cite="https://www.google.com">
+                <p>In the kingdom of Mahishmati, while pursuing his love, Shivudu learns about the conflict ridden past
+                    of his family and his legacy. He must now prepare himself to face his newfound arch-enemy.</p>
+            </blockquote>
+            <!-- ------------------caption tag----------------- -->
+            <h1>10.Caption Tag</h1>
+            <p>it used for caption for table tag after only </p>
+            <table border="1">
+                <caption>msg</caption>
+                <col span  style="background:yellow;">
+                <tr rowspan style="background:red;" >
+                    <th>Name</th>
+                    <th>Group</th>
+                </tr>
+                <tr>
+                    <td rowspan="2 ">Srikanth</td>
+                    <td>Maths</td>
+                </tr>
+                <tr  rowspan style="background:red;">
+                    <td>Srikanth</td>
+                    <td>Maths</td>
+                </tr>
+            </table>
+            <!-- ---------------------center tag --------------- -->
+            <h1>11.Center Tag</h1>
+            <p>
+                <center>its means text aline center</center>
+            </p>
+            <!-- ----------cite tag----------------- -->
+            <h1>12.Cite Tag</h1>
+            <p>cite tag used in one title of creative work</p>
+            <p> <cite>vishwasam</cite> movie acting in Ajith sir </p>
+            <!-- --------------computer code tag------------------------ -->
+            <h1>13.Computer code Tag</h1>
+            <ul>
+                <li>code</li>
+                <li>samp</li>
+                <li>var</li>
+                <li>kbd</li>
+                <li>pre</li>
+            </ul>
+            <h1>Code tag</h1>
+            <div>
+                <p>The content <code style="color:yellow;">inside is displayed </code> in the browser's default
+                    monospace font.</p>
+                <p>The content inside is <samp style="color:yellow;">displayed in the</samp> browser's default monospace
+                    font.</p>
+                <p>The content inside is displayed <var style="color:yellow;">in the browser's</var> default monospace
+                    font.</p>
+                <p>The content inside is displayed in <kbd style="color:yellow;"> the browser's</kbd> default monospace
+                    font.</p>
+                <p>The content inside i s
+                <pre>displayed in the browser</pre> displayed in the browser's default monospace font.</p>
+            </div>
+            <!-- --------------discription list---------------- -->
+            <h1>14.dl tag</h1>
+            <dl>
+                <dt>Fabevy</dt>
+                <dd>Srikanth</dd>
+                <dt>Email</dt>
+                <dd>srikanth@fabevy.com</dd>
+            </dl>
+            <!-- --------------dailouge tag---------------- -->
+            <h1>15.Dailouge Tag</h1>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <dialog>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, reprehenderit.</p>
+            </dialog>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <!-- -----------------------------details tag-------------------------- -->
+            <h1>16.Details Tag</h1>
+            <details>
+                <summary>It's Me </summary>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quo illum recusandae dolorum deserunt
+                    illo.</p>
+            </details>
+            <!-- -----------------------------embed tag-------------------------- -->
+            <h1>17.Embed Tag</h1>
+             <embed src="https://www.youtube.com/embed/rVwZkT-cg64" type="video/mp4" width="560" height="315">
+            
+             <!-- -----------------------------figure tag-------------------------- -->
+             <h1>18.Figure Tag</h1>
+             <figure>
+                <img src="image/Jeanette on Twitter.jpg" alt="" width="200px" height="250px">
+                <figcaption>This is Image</figcaption>
+             </figure>
+             <!-- ------------------------fieldset tag--------------------------- -->
+             <h1>fieldset   tag </h1>
+             <form action="">
+                <fieldset>
+                    <legend>Details</legend>
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="enter name" id="name"> <br>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="enter mail" > <br>
+                    <label for="disk-e">Disk usage E</label>
+                    <meter id="disk-e" value="5" min="0" max="10"></meter> <br>
+                    <label for="disk-d">Disk usage D</label>
+                    <meter id="disk-d" value="10" min="0" max="10"></meter>  <br>
+                    <label for="cars">Cars</label>
+                    <select  name="cars" id="cars">
+                        <optgroup label="Swedish Cars">
+                          <option value="volvo">Volvo</option>
+                          <option value="saab">Saab</option>
+                        </optgroup>
+                        <optgroup label="German Cars">
+                          <option value="mercedes">Mercedes</option>
+                          <option value="audi">Audi</option>
+                        </optgroup>
+                      </select> <br>
+                    <label for="download">downloading images</label>
+                    <progress value="60" min="0" max="100" id="download"></progress>
+                      
+
+                </fieldset>
+             </form>
+             <!-- -----------------------------iframe tag--------------------------------- -->
+             <h1>Iframe Tag</h1>
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/Vwwe1HKZ_x4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             <hr>
+             <!-- -----------------------------ins tag--------------------------------- -->
+             <h1>Ins Tag & Del Tag</h1>
+             <p>Lorem, mark <mark> ipsum dolor </mark>  it amet consectetur <del>adipisicing elit.</del> <ins>Asperiores, facere.</ins> </p>
+             <!-- -----------------------------picture  tag--------------------------------- -->
+             <h1>Picture Tag</h1>
+             <picture>
+                <source media="(min-width:570px)" srcset="image/hero-bg.jpg">
+                <source media="(min-width:780px)" srcset="image/hero-bg.jpg">
+                <img src="image/Jeanette on Twitter.jpg" alt=""  height="300px" style="width: auto;">
+             </picture>
+             <!-- -----------------------------pre tag--------------------------------- -->
+             <h1>Pre Tag</h1>
+             <pre>
+              <q>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+
+                 Voluptatem quaerat rem,   impedit culpa
+
+                  maiores magnam harum laboriosam           cupiditate sequi a.</q>  
+             </pre>
+              <!-- -----------------------------sub sup tag--------------------------------- -->
+              <h1>Sub & Sup Tag</h1>
+              <h4>h<sub>2</sub>0  Subscript text can be used <s>for chemical formulas</s> </h4>
+              <h4>(a+b)<sup>2 </sup> Superscript text can be used for maths  formulas</h4>
+              <p> ipsum dolor sit amet consectetur  <wbr>adipisicing elit. Maxime dolores, natus undeLoremqui ratione magni voluptates repudiandae sapiente vero <wbr>libero totam id consequuntur architecto quos voluptate molestiae neque aliquid autem.
+              Eius, similique! Possimus reiciendis eum magnam sunt dolore sapiente aperiam harum nobis, maxime quasi obcaecati, temporibus illo fugit itaque omnis ab tempora! Magnam repellendus optio aut dolor at expedita rem?</p>
+        </div>
+        <form action="/action_page.php" autocomplete="on">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br><br>
+            <input type="submit">
+          </form>
+    </section>
+</body>
+
+</html>
